@@ -4,7 +4,7 @@
       "id": "1",
       "name": "page-1",
       "background": "#0E218B",
-      "components": [
+      "items": [
         {
           "id": "component-1",
           "type": "box",
@@ -18,7 +18,7 @@
               "size": {
                 "type": "fill_size"
               },
-              "components": [
+              "items": [
                 {
                   "id": "row-1-page-1",
                   "type": "row",
