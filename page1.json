@@ -1,0 +1,89 @@
+{
+  "screens": [
+    {
+      "id": "1",
+      "name": "page-1",
+      "background": "#0E218B",
+      "components": [
+        {
+          "id": "component-1",
+          "type": "box",
+          "size": {
+            "type": "fill_size"
+          },
+          "items": [
+            {
+              "id": "item-1-page-1",
+              "type": "column",
+              "size": {
+                "type": "fill_size"
+              },
+              "components": [
+                {
+                  "id": "row-1-page-1",
+                  "type": "row",
+                  "size": {
+                    "type": "fill_width"
+                  },
+                  "data": {},
+                  "items": [
+                    {
+                      "id": "row-1-item-1-page-1",
+                      "type": "avatar",
+                      "size": {
+                        "type": "custom",
+                        "weight": "0.3"
+                      },
+                      "data": {
+                        "url": "https://domain.com/image.jpg",
+                        "content-description": "This is a avatar for X user"
+                      }
+                    },
+                    {
+                      "id": "row-1-item-2-page-1",
+                      "type": "text-reader",
+                      "size": {
+                        "type": "custom",
+                        "weight": "0.7"
+                      },
+                      "data": {
+                        "text": "Lorem Ipsum this is a text for page 1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "box-2-page-1",
+                  "type": "box",
+                  "size": {
+                    "type": "fill_size"
+                  },
+                  "data": {
+                    "vertical-align": "bottom",
+                    "horizontal-align": "end"
+                  },
+                  "items": [
+                    {
+                      "id": "box-2-item-1-page-1",
+                      "type": "next-button",
+                      "size": {
+                        "type": "wrap-content"
+                      },
+                      "data": {
+                        "text": "Next Page"
+                      },
+                      "event": {
+                        "id": "event-1",
+                        "type": "on-click"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
