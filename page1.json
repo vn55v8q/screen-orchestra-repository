@@ -93,6 +93,39 @@
               ]
             }
           ]
+        },
+        {
+          "id": "bd-config-panel",
+          "type": "bottom-dialog",
+          "size": {
+            "type": "wrap_content"
+          },
+          "background": "#9C27B0",
+          "data": {},
+          "items": [
+            {
+              "id": "bd-config-panel-content",
+              "type": "column",
+              "size": {
+                "type": "fill_size"
+              },
+              "background": "#9C2000",
+              "items": [
+                {
+                  "id": "bd-config-panel-content-title",
+                  "type": "center-text",
+                  "size": {
+                    "type": "fill_width"
+                  },
+                  "background": "#000000",
+                  "data": {
+                    "text": "Config Panel",
+                    "text-color": "#3C2001"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }
